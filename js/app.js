@@ -38,16 +38,22 @@ const createCartoonListItem = (form) => {
   // description and year information then add them to the section
   // element
   const titleParagraph = document.createElement('h2');
-  titleParagraph.innerText = form.title.value;
+  titleParagraph.innerText = `Title: ${form.title.value}`;
   sectionElement.appendChild(titleParagraph);
 
   const descriptionParagraph = document.createElement('h3');
-  descriptionParagraph.innerText = form.desc.value;
+  descriptionParagraph.innerText = `Description: ${form.desc.value}`;
   sectionElement.appendChild(descriptionParagraph);
 
   const yearParagraph = document.createElement('p');
-  yearParagraph.innerText = form.year.value;
+  yearParagraph.innerText = `Year: ${form.year.value}`;
   sectionElement.appendChild(yearParagraph);
+
+  const opinionParagraph = document.createElement('p');
+  opinionParagraph.innerText = `Opinion: ${form.opinion.value}`;
+  sectionElement.appendChild(opinionParagraph);
+
+
 
   return sectionElement;
 

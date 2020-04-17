@@ -20,7 +20,15 @@
         <label for="year">Year</label>
         <input type="number" id="year" required>
 
-        <input class= "btn" type="submit" id="formSubmit">
+        <div class="radioItem">
+          <input type="radio" id="like" name="opinion" value="Liked it">
+          <label for="like">Like</label>
+
+          <input type="radio" id="dislike" name="opinion" value="Disliked It">
+          <label for="dislike">Dislike</label>
+        </div>
+
+        <input class= "btn" type="submit" id="formSubmit" value="Submit">
         <button class= "btn" type="button" id="deleteAllBtn">Delete List</button>
     </form>
   </section>
