@@ -13,3 +13,5 @@ The theme I chose for this app was 90's cartoons. The app carries out the follow
 
 ## Run App
 To run the app open the index.html file in a web browser.
+
+![Home Page](manipulate_dom.png)
